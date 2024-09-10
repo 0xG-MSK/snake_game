@@ -10,8 +10,8 @@ turtle.speed(0)
 #inputs
 try:
     #sets the game setup
-    x = turtle.numinput(title="Game Setup Width", prompt="Choose the width of the game: ")
-    y = turtle.numinput(title="Game Setup Height", prompt="Enter the height of the game: ")
+    x = turtle.numinput(title="Game Setup Width", prompt="Choose the width of the game: \n width: 660 * height: 325 - recommended")
+    y = turtle.numinput(title="Game Setup Height", prompt="Enter the height of the game: \n width: 660 * height: 325 - recommended")
     if x > 10000:
        x = 600
     if y > 10000:
